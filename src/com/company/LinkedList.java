@@ -86,6 +86,12 @@ class LinkedList {
             temp = temp.next;
             //data not found temp=null because last node her next =null
         }
+        if(temp == null){
+            System.out.println("Data Not found");
+        }
+        else{
+            System.out.println("Data found");
+        }
         return temp;
     }
 
